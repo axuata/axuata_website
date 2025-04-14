@@ -1,0 +1,13 @@
+body {
+    a {
+        @apply underline-dashed underline text-blue-600 hover:underline-initial;
+    }
+
+    b {
+        @apply font-600;
+    }
+
+    i {
+        @apply italic;
+    }
+}
