@@ -13,19 +13,19 @@
       <p>海外にも興味があり、いつかヨーロッパに旅行に行きたいと思っています。</p>
     </div>
   </CSection>
-  <CSection title="Main Projects" title-align="center" title-size="28px">
-    <div class="flex gap-8px justify-center pt-6px">
+  <CSection title="Main Projects" title-align="left" title-size="28px">
+    <div class="flex gap-8px pt-6px">
       <CProjectCard link="https://github.com/axuata/axuata" title="Axuata Website" description="Axuataのウェブサイト" />
       <CProjectCard link="https://github.com/axuata/dummify" title="Dummify" description="ダミー画像生成ツール" />
     </div>
   </CSection>
-  <CSection title="Links" title-align="left" title-size="26px">
+  <CSection title="Links" title-align="left" title-size="28px">
     <div class="flex gap-8px">
-      <a href="https://github.com/axuata" class="bg-white flex items-center justify-center size-70px b-(solid 1px gray-2) rounded-16px transition-all duration-100 hover:scale-105">
-        <div class="i-logos:github-icon  size-30px" />
+      <a href="https://github.com/axuata" class="bg-white flex items-center justify-center size-65px b-(solid 1px gray-2) rounded-16px transition-all duration-100 hover:scale-105">
+        <div class="i-logos:github-icon size-25px" />
       </a>
-      <a href="https://x.com/axuata_x" class="bg-white flex items-center justify-center size-70px b-(solid 1px gray-2) rounded-16px transition-all duration-100 hover:scale-105">
-        <div class="i-logos:x  size-30px" />
+      <a href="https://x.com/axuata_x" class="bg-white flex items-center justify-center size-65px b-(solid 1px gray-2) rounded-16px transition-all duration-100 hover:scale-105">
+        <div class="i-logos:x size-25px" />
       </a>
     </div>
   </CSection>
