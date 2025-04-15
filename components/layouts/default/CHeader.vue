@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <header class="font-en h-62px flex items-center justify-between">
+  <header class="font-en h-55px flex items-center justify-between">
     <div>
       <img src="/favicon.svg" alt="Axuata's icon" class="size-52px" />
     </div>

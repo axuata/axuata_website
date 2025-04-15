@@ -6,6 +6,7 @@
   <div class="font-inter text-center py-30px">
     <p class="text-56px font-600 text-transparent bg-clip-text bg-gradient-to-b from-gray-6 to-gray-8">Welcome</p>
   </div>
+
   <CSection title="About me" title-align="left" title-size="38px">
     <div class="font-500 text-gray-6">
       <p><b>Web開発とゲーム</b>が好きな学生です。</p>
@@ -13,8 +14,9 @@
       <p>海外にも興味があり、いつかヨーロッパに旅行に行きたいと思っています。</p>
     </div>
   </CSection>
+
   <CSection title="Main Projects" title-align="left" title-size="28px">
-    <div class="flex gap-8px pt-6px">
+    <div class="flex gap-8px pt-5px">
       <CProjectCard link="https://github.com/axuata/axuata" title="Axuata Website" description="Axuataのウェブサイト" />
       <CProjectCard link="https://github.com/axuata/dummify" title="Dummify" description="ダミー画像生成ツール" />
     </div>

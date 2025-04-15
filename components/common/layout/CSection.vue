@@ -7,7 +7,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <section class="mb-36px">
+  <section class="my-26px">
     <div class="font-inter">
       <p class="font-600 line-height-tight text-transparent bg-clip-text bg-gradient-to-b from-gray-7 to-gray-8" :style="{'text-align': titleAlign, 'font-size': titleSize}">{{ title }}</p>
     </div>
