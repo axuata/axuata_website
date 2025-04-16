@@ -33,12 +33,6 @@
       <CStandardCard link="https://github.com/axuata/dummify" title="Dummify" description="ダミー画像生成ツール" />
     </div>
   </CSection>
-  <CSection title="Skills" title-align="left" title-size="28px">
-    <div class="flex gap-8px pt-5px">
-      <CStandardCard link="https://github.com/axuata/axuata" title="Axuata Website" description="Axuataのウェブサイト" />
-      <CStandardCard link="https://github.com/axuata/dummify" title="Dummify" description="ダミー画像生成ツール" />
-    </div>
-  </CSection>
   <CSection title="Links" title-align="left" title-size="28px">
     <div class="flex gap-8px">
       <CIconCard icon-name="logos:github-icon" link="https://github.com/axuata" />
