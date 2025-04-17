@@ -4,17 +4,17 @@
 
 <template>
   <!-- Welcome -->
-  <div class="font-roboto text-center py-30px">
-    <p class="text-56px font-600 text-transparent bg-clip-text bg-gradient-to-b from-gray-6 to-gray-8">Hey! I am <span class="text-transparent bg-clip-text bg-gradient-to-b from-sky-4 to-sky-5">Axuata</span>.</p>
+  <div class="font-en text-center py-30px">
+    <p class="text-56px font-600 text-transparent bg-clip-text bg-gradient-to-b from-gray-6 to-gray-8">Hey! I am <span class="text-transparent bg-clip-text bg-gradient-to-b from-sky-4 to-sky-5">Axuata</span></p>
   </div>
 
   <!-- About me -->
   <section class="my-26px flex items-center justify-between">
     <div>
-      <div class="font-roboto">
+      <div class="font-en">
         <p class="font-600 line-height-tight text-transparent bg-clip-text bg-gradient-to-b from-gray-7 to-gray-8 text-38px">About me</p>
       </div>
-      <div>
+      <div class="font-ja">
         <div class="font-500 text-gray-6">
           <p><b>Web開発とゲーム</b>が好きな学生です。</p>
           <p><b>音楽</b>も好きで、<i>Coldplay</i>の<a href="https://www.youtube.com/watch?v=dvgZkm1xWPE">Viva La Vida</a>などをよく聴いています。</p>
