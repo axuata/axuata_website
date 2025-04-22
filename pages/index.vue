@@ -35,8 +35,8 @@
   </CSection>
   <CSection title="Links" title-align="left" title-size="28px">
     <div class="flex gap-8px">
-      <CIconCard icon-name="logos:github-icon" link="https://github.com/axuata" />
-      <CIconCard icon-name="logos:x" link="https://x.com/axuata_x" />
+      <CIconCard icon="logos:github-icon" link="https://github.com/axuata" />
+      <CIconCard icon="logos:x" link="https://x.com/axuata_x" />
     </div>
   </CSection>
 </template>

@@ -9,7 +9,7 @@
     </div>
     <nav class="flex items-center justify-center gap-8px">
       <NuxtLink to="/" class="transition-all duration-100 no-underline text-gray-7 font-500 hover:tracking-wide">Home</NuxtLink>
-      <NuxtLink to="/posts/" class="transition-all duration-100 no-underline text-gray-7 font-500 hover:tracking-wide">Posts</NuxtLink>
+      <NuxtLink to="/gallery/" class="transition-all duration-100 no-underline text-gray-7 font-500 hover:tracking-wide">Gallery</NuxtLink>
     </nav>
     <div class="flex items-center justify-center gap-8px">
       <a href="https://github.com/axuata"><div class="i-logos:github-icon size-20px" /></a>
