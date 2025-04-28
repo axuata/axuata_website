@@ -11,8 +11,10 @@
 
   <CSection title="Photos" title-align="center" title-size="36px">
     <div class="flex flex-wrap gap-14px justify-center mt-8px">
-      <CPhotoCard title="Coming Soon..." description="Coming Soon..." photo="https://placehold.co/320x180" />
-      <CPhotoCard title="Coming Soon..." description="Coming Soon..." photo="https://placehold.co/320x180" />
+      <CPhotoCard title="TX秋葉原" description="TX秋葉原駅の出口" photo="/images/photos/20250427_akihabara_0.JPG" />
+      <CPhotoCard title="ヨドバシカメラ秋葉原" description="ヨドバシアキバ" photo="/images/photos/20250427_akihabara_1.JPG" />
+      <CPhotoCard title="東京駅舎" description="結構好き" photo="/images/photos/20250427_tokyo_0.JPG" />
+      <CPhotoCard title="高輪ゲートウェイシティ" description="高層ビル" photo="/images/photos/20250427_takanawagateway_0.JPG" />
     </div>
   </CSection>
 </template>
