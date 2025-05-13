@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <CHeader />
+  <LHeader />
   <slot />
-  <CFooter />
+  <LFooter />
 </template>
 
 <style scoped>
