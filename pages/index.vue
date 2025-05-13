@@ -1,5 +1,30 @@
 <script setup lang="ts">
-
+const skills = [
+  {
+    icon: 'logos:nuxt-icon',
+    label: 'Nuxt'
+  },
+  {
+    icon: 'logos:vue',
+    label: 'Vue'
+  },
+  {
+    icon: 'logos:html-5',
+    label: 'HTML'
+  },
+  {
+    icon: 'logos:css-3',
+    label: 'CSS'
+  },
+  {
+    icon: 'logos:javascript',
+    label: 'JavaScript'
+  },
+  {
+    icon: 'logos:typescript-icon',
+    label: 'TypeScript'
+  }
+];
 </script>
 
 <template>
@@ -19,6 +44,12 @@
           <p><b>Web開発とゲーム</b>が好きな学生です。</p>
           <p><b>音楽</b>も好きで、<i>Coldplay</i>の<a href="https://www.youtube.com/watch?v=dvgZkm1xWPE">Viva La Vida</a>などをよく聴いています。</p>
           <p>海外にも興味があり、いつかヨーロッパに旅行に行きたいと思っています。</p>
+        </div>
+        <div class="flex gap-6px mt-4px">
+          <div v-for="skill in skills" class="flex items-center px-8px py-2px text-14px b-(solid 1px gray-3) rounded-8px shadow-sm text-gray-7">
+            <Icon :name="skill.icon" class="flex items-center size-14px mr-4px" />
+            <p>{{ skill.label }}</p>
+          </div>
         </div>
       </div>
     </div>

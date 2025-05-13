@@ -12,8 +12,8 @@
       <NuxtLink to="/gallery/" class="transition-all duration-100 no-underline text-gray-7 font-500 hover:tracking-wide">Gallery</NuxtLink>
     </nav>
     <div class="flex items-center justify-center gap-10px">
-      <a href="https://github.com/axuata"><div class="i-logos:github-icon size-20px" /></a>
-      <a href="https://x.com/axuata_x"><div class="i-logos:x size-20px" /></a>
+      <a href="https://github.com/axuata"><Icon name="logos:github-icon" class="size-20px" /></a>
+      <a href="https://x.com/axuata_x"><Icon name="logos:x" class="size-20px" /></a>
     </div>
   </header>
 </template>

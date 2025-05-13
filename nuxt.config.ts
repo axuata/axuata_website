@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: {enabled: true},
-  modules: ['@unocss/nuxt', '@nuxt/fonts', 'nuxt-twemoji'],
+  modules: ['@nuxt/fonts', '@nuxt/icon', '@nuxt/image', '@unocss/nuxt', 'nuxt-twemoji'],
   app: {
     head: {
       title: 'Axuata',
