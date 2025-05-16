@@ -12,10 +12,10 @@
         <p>a newbie <span class="marker-front-end">front-end developer</span> & <span class="marker-web-designer">web designer</span>.</p>
       </div>
       <div class="flex justify-end">
-        <a href="https://x.com/axuata_x" class="flex items-center justify-center size-40px">
+        <a href="https://x.com/axuata_x" aria-hidden="true" class="flex items-center justify-center size-40px">
           <Icon name="logos:x" class="size-20px" />
         </a>
-        <a href="https://github.com/axuata" class="flex items-center justify-center size-40px">
+        <a href="https://github.com/axuata" aria-hidden="true" class="flex items-center justify-center size-40px">
           <Icon name="logos:github-icon" class="size-20px" />
         </a>
       </div>
@@ -35,7 +35,7 @@
 
   <CSection>
     <h1 class="font-600 text-20px text-gray-8">📝 Articles</h1>
-    <div class="flex-col gap-5px">
+    <div lang="ja" class="flex-col gap-5px">
       <CArticleLink to="https://zenn.dev/axuata/articles/8a18d74cd0e516" icon="twemoji:evergreen-tree" title="Windowsのtreeで階層を指定したい" desc="最終更新：2025/03/29" />
     </div>
   </CSection>

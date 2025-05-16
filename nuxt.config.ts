@@ -11,9 +11,13 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Axuata',
+      htmlAttrs: {
+        lang: 'ja'
+      },
       meta: [
         {charset: 'utf-8'},
-        {name: 'viewport', content: 'width=device-width, initial-scale=1'}
+        {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+        {name: 'google-site-verification', content: 'Vh7jScbMBYTY7d2oBDu8v8e_g8_Z-V6_H-9ZwwP19kQ'}
       ],
       link: [
         {rel: 'shortcut icon', type: 'image/svg+xml', href: '/favicon.svg'}
