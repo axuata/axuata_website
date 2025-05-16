@@ -1,77 +1,57 @@
 <script setup lang="ts">
-const skills = [
-  {
-    icon: 'logos:nuxt-icon',
-    label: 'Nuxt'
-  },
-  {
-    icon: 'logos:vue',
-    label: 'Vue'
-  },
-  {
-    icon: 'logos:html-5',
-    label: 'HTML'
-  },
-  {
-    icon: 'logos:css-3',
-    label: 'CSS'
-  },
-  {
-    icon: 'logos:javascript',
-    label: 'JavaScript'
-  },
-  {
-    icon: 'logos:typescript-icon',
-    label: 'TypeScript'
-  }
-];
+
 </script>
 
 <template>
   <!-- Welcome -->
-  <div class="font-en text-center py-30px">
-    <p class="text-56px font-600 text-transparent bg-clip-text bg-gradient-to-b from-gray-6 to-gray-8">Hey! I am <span class="text-transparent bg-clip-text bg-gradient-to-b from-sky-4 to-sky-5">Axuata</span></p>
-  </div>
-
-  <!-- About me -->
-  <section class="my-26px flex items-center justify-between">
-    <div>
-      <div class="font-en">
-        <p class="font-600 line-height-tight text-transparent bg-clip-text bg-gradient-to-b from-gray-7 to-gray-8 text-38px">About me</p>
+  <section>
+    <h1 class="font-700 text-32px">I'm Axuata 👋</h1>
+    <div class="flex justify-between max-md:block">
+      <div class="line-height-relaxed text-gray-8">
+        <p>I am Axuata from Japan 🇯🇵.</p>
+        <p>a newbie <span class="marker-front-end">front-end developer</span> & <span class="marker-web-designer">web designer</span>.</p>
       </div>
-      <div class="font-ja">
-        <div class="font-500 text-gray-6">
-          <p><b>Web開発とゲーム</b>が好きな学生です。</p>
-          <p><b>音楽</b>も好きで、<i>Coldplay</i>の<a href="https://www.youtube.com/watch?v=dvgZkm1xWPE">Viva La Vida</a>などをよく聴いています。</p>
-          <p>海外にも興味があり、いつかヨーロッパに旅行に行きたいと思っています。</p>
-        </div>
-        <div class="flex gap-6px mt-4px">
-          <div v-for="skill in skills" class="flex items-center px-8px py-2px text-14px b-(solid 1px gray-3) rounded-8px shadow-sm text-gray-7">
-            <Icon :name="skill.icon" class="flex items-center size-14px mr-4px" />
-            <p>{{ skill.label }}</p>
-          </div>
-        </div>
+      <div class="flex justify-end">
+        <a href="https://x.com/axuata_x" class="flex items-center justify-center size-40px">
+          <Icon name="logos:x" class="size-20px" />
+        </a>
+        <a href="https://github.com/axuata" class="flex items-center justify-center size-40px">
+          <Icon name="logos:github-icon" class="size-20px" />
+        </a>
       </div>
-    </div>
-    <div class="bg-white rounded-24px b-(solid 1px gray-2) shadow-sm">
-      <img src="/favicon.svg" alt="Axuata's icon" class="size-120px max-md:hidden" />
     </div>
   </section>
 
-  <CSection title="Main Projects" title-align="left" title-size="28px">
-    <div class="flex gap-8px pt-5px">
-      <CStandardCard link="https://github.com/axuata/axuata" title="Axuata Website" description="Axuataのウェブサイト" />
-      <CStandardCard link="https://github.com/axuata/dummify" title="Dummify" description="ダミー画像生成ツール" />
+  <!-- Skills -->
+  <CSection>
+    <h1 class="font-600 text-20px text-gray-8">🔧 Skills</h1>
+    <div class="flex gap-5px mt-3px">
+      <CIconLabel icon="logos:nuxt-icon" label="Nuxt" />
+      <CIconLabel icon="logos:vue" label="Vue" />
+      <CIconLabel icon="logos:typescript-icon" label="TypeScript" />
+      <CIconLabel icon="logos:javascript" label="JavaScript" />
     </div>
   </CSection>
-  <CSection title="Links" title-align="left" title-size="28px">
-    <div class="flex gap-8px">
-      <CIconCard icon="logos:github-icon" link="https://github.com/axuata" />
-      <CIconCard icon="logos:x" link="https://x.com/axuata_x" />
+
+  <CSection>
+    <h1 class="font-600 text-20px text-gray-8">📝 Posts</h1>
+    <div class="flex-col gap-5px">
+      <CEmojiLinkCard emoji="🌲" to="https://zenn.dev/axuata/articles/8a18d74cd0e516" title="Windowsのtreeで階層を指定したい" desc="最終更新：2025/03/29" />
     </div>
   </CSection>
+
+  <!-- Footer -->
+  <footer class="py-16px">
+    <p class="text-14px text-gray-8 font-500">© 2025 Axuata - All Rights Reserved.</p>
+  </footer>
 </template>
 
 <style scoped>
+.marker-front-end {
+  background:linear-gradient(transparent 70%, rgba(134, 206, 255, 0.95) 70%);
+}
 
+.marker-web-designer {
+  background:linear-gradient(transparent 70%, rgba(134, 255, 144, 0.95) 70%);
+}
 </style>

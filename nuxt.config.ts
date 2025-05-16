@@ -1,8 +1,13 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: {enabled: true},
-  modules: ['@nuxt/fonts', '@nuxt/icon', '@nuxt/image', '@unocss/nuxt', 'nuxt-twemoji'],
+  modules: [
+    '@nuxt/fonts',
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@unocss/nuxt',
+    'nuxt-twemoji'
+  ],
   app: {
     head: {
       title: 'Axuata',
@@ -11,21 +16,26 @@ export default defineNuxtConfig({
         {name: 'viewport', content: 'width=device-width, initial-scale=1'}
       ],
       link: [
-        {rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg'}
+        {rel: 'shortcut icon', type: 'image/svg+xml', href: '/favicon.svg'}
       ]
     }
   },
   css: [
     '@unocss/reset/tailwind.css',
-    '~/assets/css/app.css',
-    '~/assets/css/typography.css'
+    '~/assets/styles/global.css'
   ],
   components: {
     dirs: [
       {
         path: '~/components/',
-        pathPrefix: false,
+        pathPrefix: false
       }
     ]
+  },
+  fonts: {
+    defaults: {
+      weights: [300, 400, 500, 600, 700, 800, 900],
+      styles: ['normal', 'italic']
+    }
   }
 })
