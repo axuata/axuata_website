@@ -1,3 +1,7 @@
 * {
     font-family: 'Inter', 'Noto Sans JP', system-ui;
 }
+
+b {
+    @apply font-600;
+}

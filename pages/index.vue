@@ -8,8 +8,8 @@
     <h1 class="font-700 text-32px">I'm Axuata 👋</h1>
     <div class="flex justify-between max-md:block">
       <div class="line-height-relaxed text-gray-8">
-        <p>I am Axuata from Japan 🇯🇵.</p>
-        <p>a newbie <span class="marker-front-end">front-end developer</span> & <span class="marker-web-designer">web designer</span>.</p>
+        <p>I am <b>Axuata</b> from Japan 🇯🇵.</p>
+        <p>A newbie <span class="marker-front-end">front-end developer</span> & <span class="marker-web-designer">web designer</span>.</p>
       </div>
       <div class="flex justify-end">
         <a href="https://x.com/axuata_x" aria-hidden="true" class="flex items-center justify-center size-40px">
@@ -41,8 +41,9 @@
   </CSection>
 
   <!-- Footer -->
-  <footer class="py-16px">
+  <footer class="py-16px flex justify-between">
     <p class="text-14px text-gray-8 font-500">© 2025 Axuata - All Rights Reserved.</p>
+    <p class="text-14px text-gray-6 font-500">❤️ Thanks for visiting this website!</p>
   </footer>
 </template>
 
