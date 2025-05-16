@@ -26,17 +26,17 @@
   <CSection>
     <h1 class="font-600 text-20px text-gray-8">🔧 Skills</h1>
     <div class="flex gap-5px mt-3px">
-      <CIconLabel icon="logos:nuxt-icon" label="Nuxt" />
-      <CIconLabel icon="logos:vue" label="Vue" />
-      <CIconLabel icon="logos:typescript-icon" label="TypeScript" />
-      <CIconLabel icon="logos:javascript" label="JavaScript" />
+      <CLabelLink to="https://nuxt.com/" icon="logos:nuxt-icon" label="Nuxt" />
+      <CLabelLink to="https://vuejs.org/" icon="logos:vue" label="Vue" />
+      <CLabelLink to="https://www.typescriptlang.org/" icon="logos:typescript-icon" label="TypeScript" />
+      <CLabelLink to="https://developer.mozilla.org/docs/Web/JavaScript" icon="logos:javascript" label="JavaScript" />
     </div>
   </CSection>
 
   <CSection>
-    <h1 class="font-600 text-20px text-gray-8">📝 Posts</h1>
+    <h1 class="font-600 text-20px text-gray-8">📝 Articles</h1>
     <div class="flex-col gap-5px">
-      <CEmojiLinkCard emoji="🌲" to="https://zenn.dev/axuata/articles/8a18d74cd0e516" title="Windowsのtreeで階層を指定したい" desc="最終更新：2025/03/29" />
+      <CArticleLink to="https://zenn.dev/axuata/articles/8a18d74cd0e516" icon="twemoji:evergreen-tree" title="Windowsのtreeで階層を指定したい" desc="最終更新：2025/03/29" />
     </div>
   </CSection>
 
