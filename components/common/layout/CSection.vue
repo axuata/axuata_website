@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="my-28px">
+  <section class="my-38px">
     <slot />
   </section>
 </template>
