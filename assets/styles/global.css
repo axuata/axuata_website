@@ -5,3 +5,7 @@
 b {
     @apply font-600;
 }
+
+a {
+    @apply text-blue-6;
+}

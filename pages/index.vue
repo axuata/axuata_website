@@ -36,23 +36,23 @@
   <CSection>
     <h1 class="font-600 text-20px text-gray-8">📝 Articles</h1>
     <div lang="ja" class="flex-col gap-5px">
-      <CArticleLink to="https://zenn.dev/axuata/articles/8a18d74cd0e516" icon="twemoji:evergreen-tree" title="Windowsのtreeで階層を指定したい" desc="最終更新：2025/03/29" />
+      <CArticleLink to="https://zenn.dev/axuata/articles/8a18d74cd0e516" icon="fluent-emoji:evergreen-tree" title="Windowsのtreeで階層を指定したい" desc="最終更新：2025/03/29" />
     </div>
   </CSection>
 
   <!-- Footer -->
   <footer class="py-16px flex justify-between">
-    <p class="text-14px text-gray-8 font-500">© 2025 Axuata - All Rights Reserved.</p>
+    <p class="text-14px text-gray-8 font-500">© 2025 Axuata - All Rights Reserved.<br>Icons by <a href="https://github.com/microsoft/fluentui-emoji">Fluent Emoji</a> ✨</p>
     <p class="text-14px text-gray-6 font-500">❤️ Thanks for visiting this website!</p>
   </footer>
 </template>
 
 <style scoped>
 .marker-front-end {
-  background:linear-gradient(transparent 70%, rgba(134, 206, 255, 0.95) 70%);
+  background: linear-gradient(transparent 70%, rgba(134, 206, 255, 0.95) 70%);
 }
 
 .marker-web-designer {
-  background:linear-gradient(transparent 70%, rgba(134, 255, 144, 0.95) 70%);
+  background: linear-gradient(transparent 70%, rgba(134, 255, 144, 0.95) 70%);
 }
 </style>

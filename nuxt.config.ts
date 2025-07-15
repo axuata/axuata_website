@@ -5,8 +5,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@unocss/nuxt',
-    'nuxt-twemoji'
+    '@unocss/nuxt'
   ],
   app: {
     head: {
